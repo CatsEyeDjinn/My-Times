@@ -8,5 +8,12 @@ body {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-  background-image: image("img-myt-logo.jpg");
+}
+
+.article1 {
+  display: flex;
+  flex: column;
+  border: solid 1px black;
+  color: black;
+  font-family: serif, sans-serif;
 }
