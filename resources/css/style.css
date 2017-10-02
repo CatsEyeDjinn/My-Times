@@ -8,4 +8,5 @@ body {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  background-image: image("img-myt-logo.jpg");
 }
