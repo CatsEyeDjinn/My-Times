@@ -4,16 +4,26 @@ body {
 
 #logo {
   display: flex;
+  flex: inline-block;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .article1 {
   display: flex;
   flex: column;
+  flex-wrap: wrap;
+  width: 1000px;
   border: solid 1px black;
   color: black;
   font-family: serif, sans-serif;
+}
+
+h1 {
+  background-image: image("img-story-main.jpg");
 }
